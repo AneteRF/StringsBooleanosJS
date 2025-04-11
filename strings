@@ -1,0 +1,38 @@
+let saudacao="Olá";
+let nome="Mundo";
+
+//concatenação de String ou juntar ou juntar
+
+let mensagem_final = saudacao + " "+nome +"!";
+
+console.log(mensagem_final);
+
+let frase = "JavaScript é legal em";
+//comprimento da string
+console.log(frase.length);
+
+//DEIXAR TUDO MAIUCULA 
+console.log(frase.toUpperCase());
+
+//Deixar em minúsculo
+console.log(frase.toLowerCase());
+
+//encontrar uma posição da string
+console.log(frase.indexOf("legal"));
+
+//Extrair uma parte da string
+console.log(frase.substring(0,10));
+
+//Substituir uma parte de uma string 
+let novafrase = frase.replace("legal","incrível");
+
+console.log(novafrase);
+
+// enterpolação de strings
+
+let Nome = "Anete";
+let Idade = "27";
+
+let mesagem = `meu nome é ${Nome} e eu tenho ${Idade} anos`;
+
+console.log(mesagem);
