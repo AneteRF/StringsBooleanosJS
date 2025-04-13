@@ -1,1 +1,1 @@
-# StringsBooleanosJS
+# CursoJS
